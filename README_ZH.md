@@ -2,7 +2,7 @@
     <img src=".github/coding-life-lite.png" style="height: 90px; border-radius: 5px;"/>
 </p>
 
-<h1 align="center">Coding life Lite</h1>
+<h1 align="center">Coding Life Lite</h1>
 
 <p align="center">
     <span>
