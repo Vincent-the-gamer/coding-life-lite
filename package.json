@@ -1,0 +1,14 @@
+{
+  "name": "coding-life-lite",
+  "version": "1.0.0",
+  "description": "A lightweight version of coding life。 轻量化版码农搬砖模拟器(纯命令行)",
+  "scripts": {
+    "start": "esno index.ts"
+  },
+  "author": "Vincent-the-gamer",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.10.6",
+    "esno": "^4.0.0"
+  }
+}
