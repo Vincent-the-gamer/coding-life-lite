@@ -590,7 +590,7 @@ const eventList = [
   }, {
     id: 120003,
     event: "学习了Rust。",
-    postEvent: "把Shigma的Koishi用Rust重写了，能力提升了。",
+    postEvent: "把机器人框架Koishi用Rust重写了, 能力提升了, 作者Shigma表示我他喵???",
     effect : {
       INT: 1
     },
@@ -696,13 +696,13 @@ const eventList = [
     }
   }, {
     id: 140004,
-    event: "你觉得有点无聊。",
+    event: "JavaScript现在可以使用类型系统了, TypeScript逐渐没人用了。",
   }, {
     id: 140005,
-    event: "你买了一辆自行车。",
+    event: "你买了一台MacBook Pro，然后让店员现场安装Windows系统。",
   }, {
     id: 140006,
-    event: "你买了一条毛巾。",
+    event: "你把Arch Linux刷在了Android手机上，添加了Black Arch源，安装了nmap和metasploit，然后去星巴克试图扫描局域网",
   }, {
     id: 140007,
     event: "国家宣布加强个人隐私保护。",
