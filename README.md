@@ -14,13 +14,17 @@
 
 <p align="center">A lightweight version of coding life.</p>
 
-# Feature
+# Features
 
 ## Lightweight
 
 This version of coding life is running only in `command line` since the original version has a webpage.
 
 Original Coding Life: [https://github.com/xitu/coding-life](https://github.com/xitu/coding-life)
+
+## Memes
+Replace Juejin memes by `Arch Linux` and `Rust` memes. (\*^▽^\*).
+
 
 # Play
 ```shell

@@ -1,11 +1,11 @@
-import Property from './property.js';
-import Event from './event.js';
-import Talent from './talent.js';
-import Achievement from './achievement.js';
-import { talents } from './data/talents.js';
-import { age } from './data/age.js';
-import { events } from './data/events.js';
-import { achievements } from './data/achievements.js';
+import Property from './property.ts';
+import Event from './event.ts';
+import Talent from './talent.ts';
+import Achievement from './achievement.ts';
+import { talents } from './data/talents.ts';
+import { age } from './data/age.ts';
+import { events } from './data/events.ts';
+import { achievements } from './data/achievements.ts';
 
 class Life {
     constructor() {
@@ -33,7 +33,7 @@ class Life {
     restart(allocation) {
         this.#triggerTalents = {};
         this.#property.restart(allocation);
-        this.doTalent();
+        this.doTalent(null);
         this.#property.restartLastStep();
         this.#achievement.achieve(
             this.#achievement.Opportunity.START,
@@ -75,7 +75,7 @@ class Life {
 
     getHighLightContents(maxCount = 5) {
         const highlights = [...this.#highlight];
-        const ret = [];
+        const ret: any = [];
         for(let i = 0; i < maxCount && i < highlights.length; i++) {
             const pick = Math.floor(Math.random() * highlights.length);
             ret.push(highlights.splice(pick, 1)[0]);
@@ -88,7 +88,7 @@ class Life {
         talents = this.#property.get(this.#property.TYPES.TLT)
             .filter(talentId => this.getTalentCurrentTriggerCount(talentId) < this.#talent.get(talentId).max_triggers);
 
-        const contents = [];
+        const contents: any = [];
         for(const talentId of talents) {
             const result = this.#talent.do(talentId, this.#property);
             if(!result) continue;

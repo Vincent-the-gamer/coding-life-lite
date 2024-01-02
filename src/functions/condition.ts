@@ -1,8 +1,8 @@
 function parseCondition(condition) {
 
-    const conditions = [];
+    const conditions: any = [];
     const length = condition.length;
-    const stack = [];
+    const stack: any = [];
     stack.unshift(conditions);
     let cursor = 0;
     const catchString = i => {

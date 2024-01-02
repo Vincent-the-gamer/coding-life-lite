@@ -73,7 +73,7 @@ class App {
         this.#talentExtend = localStorage.talentExtend;
         await this.#life.initial();
         this.output(`\rLoading Complete.
-码农代码模拟器
+码农搬砖模拟器
 这垃圾代码一秒也不想敲了
 \n🎉键入 \x1B[4m/remake\x1B[24m 开始游戏`,
             true
@@ -474,7 +474,7 @@ class App {
         const trajectory = this.#life.next();
         const { age, content, isEnd } = trajectory;
         if(isEnd) this.#isEnd = true;
-        return `${age}岁：\t${
+        return `第${age}个月：\t${
             content.map(
                 ({type, description, grade, name, postEvent}) => {
                     switch(type) {

@@ -1,4 +1,5 @@
-import App from '../src/app.js';
+// @ts-nocheck
+import App from './app.ts';
 
 globalThis.$$eventMap = new Map();
 globalThis.$$event = (tag, data) => {

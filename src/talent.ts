@@ -1,5 +1,5 @@
-import { clone } from './functions/util.js';
-import { checkCondition, extractMaxTriggers } from './functions/condition.js';
+import { clone } from './functions/util.ts';
+import { checkCondition, extractMaxTriggers } from './functions/condition.ts';
 
 class Talent {
     constructor() {}

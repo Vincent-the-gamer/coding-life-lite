@@ -1,8 +1,9 @@
-import { summary } from './functions/summary.js';
-import { getGrade } from './functions/addition.js';
-import { specialthanks } from './data/specialthanks.js';
-import Life from './life.js';
-import svgNumber from './svgNumber.js';
+// @ts-nocheck
+import { summary } from './functions/summary.ts';
+import { getGrade } from './functions/addition.ts';
+import { specialthanks } from './data/specialthanks.ts';
+import Life from './life.ts';
+import svgNumber from './svgNumber.ts';
 
 const numberToSvg = (number) => {
     return number.toString().split('').map(num => svgNumber['svg' + num]);
@@ -550,7 +551,7 @@ class App{
                 </div>
                 <div class="highlight">
                     <p>你毕业了，成为一名程序猿</p>
-                    <p>你走在上班路上，天上忽然骗来一张小纸条，你捡起来，之间上面写着<br/>【号外】掘金大会开始了</p>
+                    <p>你走在上班路上，天上忽然骗来一张小纸条，你捡起来，之间上面写着<br/>Rewrite everything in Rust!!</p>
                     <p>同时为1=2等于几</p>
                     <p>LD夸你张的好看<br/>对你说，你那么好看，为什么不转前端</p>
                     <p>你作为程序猿工作了10多年，觉的自己不喜欢这个职业</p>

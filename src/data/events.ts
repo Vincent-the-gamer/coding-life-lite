@@ -589,8 +589,8 @@ const eventList = [
     event: "你努力工作"
   }, {
     id: 120003,
-    event: "注册了稀土掘金社区账号。",
-    postEvent: "学习掘金文章，能力提升了。",
+    event: "学习了Rust。",
+    postEvent: "把Shigma的Koishi用Rust重写了，能力提升了。",
     effect : {
       INT: 1
     },
@@ -690,7 +690,7 @@ const eventList = [
     }
   }, {
     id: 140003,
-    event: "你右眼不停地跳，最近可能得小心一些。",
+    event: "你试用了 WebStorm, 打开一个项目, 感叹到补全速度好快, 然后就崩了",
     effect: {
       BLCK: -1,
     }
@@ -2065,8 +2065,8 @@ const eventList = [
   },
   {
     id: 850005,
-    event: '听说隔壁小公司把人骗去东南亚，',
-    postEvent: '程序员被枪顶着头开发菠菜网站。'
+    event: '听说Arch Linux系统很好用，',
+    postEvent: '隔壁小公司从个人电脑到服务器全部安装了Arch。'
   },
   {
     id: 850006,
@@ -2638,7 +2638,6 @@ const eventList = [
     exclude: conFemale2,
     event: '你想成为程序员鼓励师，结果发现他们不招男生。',
     highlight: 1,
-    exclude: 'EVT?[880006]',
   },
   {
     id: 880007,
@@ -2656,24 +2655,23 @@ const eventList = [
   },
   {
     id: 880009,
-    event: '你女友对你说，她想要一支MAC。',
-    postEvent: '你给她买了一台Macbook Pro。',
+    event: '你女友对你说，她想要MAC。',
+    postEvent: '你给她买了一台MacBook Pro。',
     include: `${conMale}`,
     exclude: `(EVT?[870009,870010,220000])|(${conFemale2})`,
     highlight: 1,
   },
   {
     id: 880010,
-    event: '你妻子对你说，她想要一支MAC。',
-    postEvent: '你给她买了一台Macbook Pro。',
+    event: '你妻子对你说，她想要MAC。',
+    postEvent: '你给她买了一台MacBook Pro。',
     include: `(${conMale})&(EVT?[220000])`,
     exclude: `(EVT?[870009,870010])|(${conFemale2})`,
     highlight: 1,
   },
-  // ---- 掘金 ----
   {
     id: 860000,
-    event: '你在掘金读到了一篇讲前端的好文章。',
+    event: '你在Arch Wiki读到了一篇讲Black Arch的好文章。',
     include: "EVT?[120003]",
     branch: [
       'LCK>7:861001',
@@ -2682,7 +2680,7 @@ const eventList = [
   },
   {
     id: 860001,
-    event: '你在掘金读到了一篇讲后端的好文章。',
+    event: '你在Arch Wiki读到了一篇讲AUR的好文章。',
     include: "EVT?[120003]",
     branch: [
       'LCK>7:861001',
@@ -2691,7 +2689,7 @@ const eventList = [
   },
   {
     id: 860002,
-    event: '你在掘金读到了一篇讲算法的好文章。',
+    event: '你在Arch Wiki读到了一篇讲Nvidia驱动的好文章。',
     include: "EVT?[120003]",
     branch: [
       'LCK>7:861001',
@@ -2700,7 +2698,7 @@ const eventList = [
   },
   {
     id: 860003,
-    event: '你在掘金沸点上班摸鱼。',
+    event: '你在看GitHub摸鱼。',
     include: "EVT?[120003]",
     branch: [
       'LCK>2:861002',
@@ -2725,7 +2723,7 @@ const eventList = [
   {
     id: 860004,
     event: '你走在上班路上，天上忽然飘来一张小纸条，你捡起来，只见上面写着：',
-    postEvent: "【号外！号外！】掘金社区主办的第一届稀土开发者大会将于2021年10月27日线上开启~",
+    postEvent: "关注永雏塔菲喵~关注永雏塔菲谢谢喵~",
     exclude: "EVT?[860004]",
     effect: {
       SPR:1,
@@ -2982,7 +2980,7 @@ const eventList = [
     include: 'TLT?[1063]'
   },{
     id: 988004,
-    event: '【小道消息】掘金社区是个人成长的很棒的平台。',
+    event: '【小道消息】Rust是世界上最好的语言。',
     exclude: 'EVT?[988004]',
     include: 'TLT?[1063]'
   },

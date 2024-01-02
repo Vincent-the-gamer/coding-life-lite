@@ -1,4 +1,4 @@
-import { max, min, sum, clone } from './functions/util.js';
+import { max, min, sum, clone } from './functions/util.ts';
 
 class Property {
     constructor() {}

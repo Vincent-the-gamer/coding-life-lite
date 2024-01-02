@@ -557,7 +557,7 @@ const ageList = [
 ];
 
 function generateEachYear(n = 10) {
-  const ret = [];
+  const ret: any = [];
   for(let i = 1; i < n; i++) {
     ret.push(...[
       // 第二年

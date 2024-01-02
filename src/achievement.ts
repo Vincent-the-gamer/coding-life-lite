@@ -1,5 +1,6 @@
-import { clone } from './functions/util.js';
-import { checkCondition } from './functions/condition.js';
+// @ts-nocheck
+import { clone } from './functions/util.ts';
+import { checkCondition } from './functions/condition.ts';
 
 class Achievement {
     constructor() {}

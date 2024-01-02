@@ -22,6 +22,9 @@
 
 原版: [https://github.com/xitu/coding-life](https://github.com/xitu/coding-life)
 
+## 梗替换
+把所有掘金梗换成`Arch Linux`梗和`Rust`梗 (\*^▽^\*)
+
 # 游玩
 ```shell
 git clone https://github.com/Vincent-the-gamer/coding-life-lite.git
