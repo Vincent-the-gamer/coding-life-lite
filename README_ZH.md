@@ -26,6 +26,10 @@
 把所有掘金梗换成`Arch Linux`梗和`Rust`梗 (\*^▽^\*)
 
 # 游玩
+## 在线游玩
+[https://codesandbox.io/p/github/Vincent-the-gamer/coding-life-lite/main](https://codesandbox.io/p/github/Vincent-the-gamer/coding-life-lite/main)
+
+## 本地游玩
 ```shell
 git clone https://github.com/Vincent-the-gamer/coding-life-lite.git
 
