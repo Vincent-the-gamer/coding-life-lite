@@ -27,10 +27,6 @@ Replace Juejin memes by `Arch Linux` and `Rust` memes. (\*^▽^\*).
 
 
 # Play
-## Play it online
-[https://codesandbox.io/p/github/Vincent-the-gamer/coding-life-lite/main](https://codesandbox.io/p/github/Vincent-the-gamer/coding-life-lite/main)
-
-## Play it locally
 ```shell
 git clone https://github.com/Vincent-the-gamer/coding-life-lite.git
 
